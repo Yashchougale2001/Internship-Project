@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#Home">
+        <h1>MyPort🎭</h1>
+      </a>
+      <i class="bx bx-menu" id="menu"></i>
+      <nav>
+        <a href="#Home" class="active">Home</a>
+        <a href="#About">About</a>
+        <a href="#SkillSets">SkillSets</a>
+        <a href="#Portfolio">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <!-- Section 1 -->
+    <section class="Home" id="Home">
+      <div class="content-box">
+        <div class="icon-box">
+          <i class="bx bxl-linkedin" id="linkedin-icon"></i>
+          <i class="bx bxl-github" id="github-icon"></i>
+        </div>
+        <div class="text-box">
+          <h3>Hello, It's Me</h3>
+          <h1>Yash Chougale</h1>
+          <h1>
+            And I'm
+            <span class="skills"></span>
+          </h1>
+          <p>
+            A motivated individual with in-depth knowledge of languages and
+            development tools, seeking a position in computer science within a
+            growth-oriented company. I aim to use my skills to the advantage of
+            the company while having the scope to enhance my own abilities and
+            contribute to both personal and organizational development.
+          </p>
+          <span class="btn-box">
+            <button type="button" class="btn" id="downloadBtn">
+              Download CV
+            </button>
+            <a
+              id="downloadLink"
+              href="./Assets/Yashchougale.pdf"
+              download="yourfile.pdf"
+              style="display: none"
+            ></a>
+            <a href="#Contact">
+              <button type="button" class="btn btn-2">Contact Me</button>
+            </a>
+          </span>
+        </div>
+      </div>
+      <img src="./Assets/im.png" class="img" alt="" />
+    </section>
+    <!-- Section 2 -->
+    <section class="About" id="About">
+      <img src="./Assets/im.png" class="img" alt="" />
+
+      <div class="text-box">
+        <h1 class="title">About <span>Me</span></h1>
+        <h1>Software Engineer</h1>
+        <p>
+          "My name is Yash Chougale, and I am a recent graduate from D.Y. Patil
+          College of Engineering and Technology, Kolhapur. I am highly motivated
+          to learn and develop my skills in software engineering, with a strong
+          foundation in programming and hands-on experience in various projects.
+          I am passionate about coding and problem-solving, and I thrive in
+          collaborative environments where innovation and creativity are
+          encouraged. My goal is to leverage my technical skills and enthusiasm
+          to contribute to meaningful projects and continuously grow within this
+          dynamic field. I am eager to take on new challenges and make a
+          positive impact in the industry."
+        </p>
+        <button type="button" class="btn">Read More</button>
+      </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="SkillSets" id="SkillSets">
+      <h1 class="title">My <span>SkillSets</span></h1>
+
+      <div class="card-box">
+        <span class="card">
+          <span>
+            <i class="bx bx-code-alt"></i>
+            <h1>Web Development</h1>
+          </span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+            veritatis consequuntur accusantium nostrum dolor assumenda.
+          </p>
+          <button type="button" class="btn">Read More</button>
+        </span>
+
+        <span class="card">
+          <span>
+            <i class="bx bx-mobile-alt"></i>
+            <h1>App Development</h1>
+          </span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+            veritatis consequuntur accusantium nostrum dolor assumenda.
+          </p>
+          <button type="button" class="btn">Read More</button>
+        </span>
+
+        <span class="card">
+          <span>
+            <i class="bx bxs-paint"></i>
+            <h1>Ui & Ux Design</h1>
+          </span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+            veritatis consequuntur accusantium nostrum dolor assumenda.
+          </p>
+          <button type="button" class="btn">Read More</button>
+        </span>
+      </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="Portfolio" id="Portfolio">
+      <h1 class="title">My <span>Work</span></h1>
+
+      <div class="content-box">
+        <div class="img-box">
+          <img src="./Assets/portfolio-1.png" alt="" />
+          <span class="layer">
+            <h1>Fortel</h1>
+            <p>
+              Constructed a project for the prediction of stock market prices
+              using Python and Algorithms like LSTM and GRU.feeds the real-time
+              data collected from Yahoo Finance using a Yahoo Fin library.
+              Specifically, the model concentrated on the forecast of the
+              closing price of stock and provided adjustable prediction Range
+              from 7 to 30 days.
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+
+        <div class="img-box">
+          <img src="./Assets/portfolio-2.png" alt="" />
+          <span class="layer">
+            <h1>TEXT2PIC</h1>
+            <p>
+              Created a web app that can translate plain text into images with
+              the help of the latest version of the ChatGPT-3.5 API. This
+              project supports full compatibility with both the desktop
+              sites/website and mobile version and operates in real-time for
+              users.
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+
+        <div class="img-box">
+          <img src="./Assets/portfolio-3.png" alt="" />
+          <span class="layer">
+            <h1>SmartCam</h1>
+            <p>
+              Worked in a group of four to create SmartCam, an application
+              created in Python, using OpenCV and Haar cascade. The application
+              has deep learning algorithms that alert the camera at the right
+              time when the user is about to smile naturally when taking
+              selfies. as well as optimized the outlook of the application
+              through HTML and CSS, consequently improving the usage and
+              retention rates.
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+
+        <div class="img-box">
+          <img src="./Assets/pacman.png" alt="" />
+          <span class="layer">
+            <h1>Packman Game</h1>
+            <p>
+              Developed game in C involves programming the classic maze game
+              where the player navigates a maze, collecting dots and avoiding
+              ghosts. The game includes score tracking, levels, and basic AI for
+              ghost movement..
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+
+        <div class="img-box">
+          <img src="./Assets/portfolio-5.png" alt="" />
+          <span class="layer">
+            <h1>E Commerce Website</h1>
+            <p>
+              An E-commerce platform built with React allows users to browse
+              products, add items to a cart, and securely checkout. The project
+              includes features like dynamic product displays, responsive
+              design, state management for cart and user sessions, and
+              integration with APIs for payment processing and inventory
+              management.
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+
+        <div class="img-box">
+          <img src="./Assets/portfolio-6.png" alt="" />
+          <span class="layer">
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis debitis suscipit velit a magni doloremque?
+            </p>
+            <i class="bx bx-share"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5 -->
+    <section class="Contact" id="Contact">
+      <h1 class="title">Contact <span>Me</span></h1>
+
+      <form class="form">
+        <div class="input-box">
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email" required />
+          <input type="number" placeholder="Number" required />
+        </div>
+        <textarea cols="30" rows="10" placeholder="Message"></textarea>
+        <input type="submit" class="btn" />
+      </form>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
